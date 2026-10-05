@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPD Alasmalang | Badan Permusyawaratan Desa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        desa: '#166534', // Hijau khas instansi desa
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-desa text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="font-bold text-lg md:text-xl flex items-center gap-3">
+                <!-- Logo Banyuwangi (Link dari Wikimedia Commons) -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Lambang_Kabupaten_Banyuwangi.png/120px-Lambang_Kabupaten_Banyuwangi.png" alt="Logo Banyuwangi" class="w-8 h-auto">
+                <span>BPD Alasmalang</span>
+            </div>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#profil" class="hover:text-gray-200 transition">Profil</a>
+                <a href="#anggota" class="hover:text-gray-200 transition">Anggota</a>
+                <a href="#aspirasi" class="bg-white text-desa px-4 py-1.5 rounded-full font-semibold hover:bg-gray-100 transition">Sampaikan Aspirasi</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-white shadow-sm border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 text-center relative overflow-hidden">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">Badan Permusyawaratan Desa<br><span class="text-desa">Desa Alasmalang</span></h1>
+            <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Mitra strategis Pemerintah Desa dalam mewujudkan pembangunan, transparansi tata kelola pemerintahan, serta menjaga kelestarian tradisi Kebo-keboan dan budaya lokal Banyuwangi.
+            </p>
+            <a href="#aspirasi" class="inline-block bg-desa text-white px-8 py-3 rounded-lg font-bold shadow-md hover:bg-green-800 transition">
+                Tulis Aspirasi Sekarang
+            </a>
+        </div>
+    </header>
+
+    <!-- Profil & Fungsi -->
+    <section id="profil" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-10 border-b-2 border-desa pb-2 inline-block">Fungsi Utama BPD</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-green-100 text-desa rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Legislasi Desa</h3>
+                    <p class="text-gray-600 text-sm">Membahas dan menyepakati Rancangan Peraturan Desa bersama Kepala Desa.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-green-100 text-desa rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Menyalurkan Aspirasi</h3>
+                    <p class="text-gray-600 text-sm">Menggali, menampung, dan menyalurkan aspirasi masyarakat Desa Alasmalang.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-green-100 text-desa rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Pengawasan</h3>
+                    <p class="text-gray-600 text-sm">Melakukan pengawasan terhadap kinerja Kepala Desa dalam pemerintahan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Struktur Anggota -->
+    <section id="anggota" class="py-16 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">Anggota BPD Periode 2026-2034</h2>
+            <p class="text-gray-600 mb-10">Wakil masyarakat Desa Alasmalang, Kecamatan Singojuruh.</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Ganti nama-nama di bawah dengan hasil pemilihan -->
+                <div class="p-6 border border-gray-200 rounded-xl bg-gray-50 hover:border-desa transition">
+                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center text-gray-500">
+                        <i class="fas fa-user text-3xl"></i>
+                    </div>
+                    <h4 class="font-bold text-gray-900">[Nama Ketua]</h4>
+                    <p class="text-sm text-desa font-semibold mt-1">Ketua BPD</p>
+                </div>
+                <div class="p-6 border border-gray-200 rounded-xl bg-gray-50 hover:border-desa transition">
+                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center text-gray-500">
+                        <i class="fas fa-user text-3xl"></i>
+                    </div>
+                    <h4 class="font-bold text-gray-900">[Nama Wakil]</h4>
+                    <p class="text-sm text-desa font-semibold mt-1">Wakil Ketua</p>
+                </div>
+                <div class="p-6 border border-gray-200 rounded-xl bg-gray-50 hover:border-desa transition">
+                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center text-gray-500">
+                        <i class="fas fa-user text-3xl"></i>
+                    </div>
+                    <h4 class="font-bold text-gray-900">[Nama Sekretaris]</h4>
+                    <p class="text-sm text-desa font-semibold mt-1">Sekretaris</p>
+                </div>
+                <div class="p-6 border border-gray-200 rounded-xl bg-gray-50 hover:border-desa transition">
+                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 overflow-hidden flex items-center justify-center text-gray-500">
+                        <i class="fas fa-user text-3xl"></i>
+                    </div>
+                    <h4 class="font-bold text-gray-900">[Nama Anggota]</h4>
+                    <p class="text-sm text-desa font-semibold mt-1">Anggota</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Aspirasi -->
+    <section id="aspirasi" class="py-16 bg-desa text-white">
+        <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">Kotak Aspirasi Warga</h2>
+            <p class="text-center mb-8 text-gray-200">Kritik, saran, dan usulan Anda sangat berarti untuk memajukan Desa Alasmalang.</p>
+            
+            <form action="https://formspree.io/f/KODE_FORMSPREE_ANDA" method="POST" class="bg-white p-6 md:p-8 rounded-xl shadow-lg text-gray-800">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label class="block text-sm font-bold mb-2 text-gray-700">Nama Lengkap</label>
+                        <input type="text" name="nama" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-desa focus:border-transparent">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-2 text-gray-700">Asal Dusun / RT / RW</label>
+                        <input type="text" name="alamat" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-desa focus:border-transparent" placeholder="Cth: Dusun Krajan RT 01/02">
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-sm font-bold mb-2 text-gray-700">Isi Aspirasi</label>
+                    <textarea name="pesan" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-desa focus:border-transparent" placeholder="Tuliskan aspirasi Anda di sini..."></textarea>
+                </div>
+                <button type="submit" class="w-full bg-desa text-white font-bold py-3 rounded-lg hover:bg-green-800 transition shadow-md flex justify-center items-center gap-2">
+                    <i class="fas fa-paper-plane"></i> Kirim Aspirasi
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center border-t border-gray-800">
+        <p>&copy; 2026 Badan Permusyawaratan Desa (BPD) Alasmalang.</p>
+        <p class="text-sm mt-2">Kecamatan Singojuruh, Kabupaten Banyuwangi.</p>
+    </footer>
+
+</body>
+</html>
